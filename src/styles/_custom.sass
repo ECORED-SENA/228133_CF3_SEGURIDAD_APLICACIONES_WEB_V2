@@ -3,12 +3,12 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    left: 0
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 70%
+    right: 5%
 
 
 @keyframes float1
@@ -17,3 +17,158 @@
 
   100%
     transform: translateY(0px)
+
+.BGR01, .BGH01, .BGM01, .BG01, .BGJ01, .BGI01, .bloque-texto-a.color-acento-contenido:before
+  background-color: #E5FDF3
+  
+.BG02
+  background-color: #fff
+
+.BGR02
+  background-color: #fff
+  border-radius: 25px
+
+.BGR03
+  background-color: #FFF5DE
+  height: 181.6px
+
+.BG04
+  background-color: $color-acento-botones
+
+.BGR05
+  background-color: #FFE59F
+
+.BG06, .BGI06, .bloque-texto-a.color-acento-contenido, .slyder-a__btn--sigt, .slyder-a__btn--atrs, .slyder-a__bullets__item--active
+  background-color: $color-acento-contenido !important
+
+.BG07, .BGH07, .BGI07, .BGJ07
+  background-color: #E5EAFF
+
+.BG08
+  background-color: $color-primario
+
+.BG09, .BGR09, .BGM09, .BGH09, .BGI09, .BGK09
+  background-color: #FFF4D6
+
+.BG10, .BGI10
+  background-color: $color-secundario
+
+.BG11, .BGK11
+  background-color: #C7EDE0
+
+.BG12
+  background-color: #D4F7EB
+
+.BG13
+  border: 5px solid #fff
+
+.BGR01, .BGI01, .BGR03, .BGR05, .BGR09, .BGI09
+  border-radius: 15px
+
+.BGH01, .BGH07
+  height: 38%
+  @media (max-width: $bp-max-lg)
+    height: 50%
+  @media (max-width: $bp-max-md)
+    height: 65%
+  @media (max-width: $bp-max-sm)
+    height: 30%
+  @media (max-width: $bp-max-xs)
+    height: 40%
+  
+.BGI01, .BGI09
+  height: 100%
+  
+.BGI07, .BG12
+  height: 196px
+  @media (max-width: $bp-max-md)
+    height: 250px
+  
+.BGJ01, .BGJ07
+  height: 45%
+  @media (max-width: $bp-max-lg)
+    height: 55%
+  @media (max-width: $bp-max-md)
+    height: 72%
+  @media (max-width: $bp-max-sm)
+    height: 40%
+
+.BGI06, .BGI10
+  height: 264px
+  @media (max-width: $bp-max-md)
+    height: 150px
+
+.BGK09, .BGK11
+  height: 365px
+  @media (max-width: $bp-max-lg)
+    height: 528px
+  @media (max-width: $bp-max-md)
+    height: 232px
+  @media (max-width: $bp-max-sm)
+    height: 380px
+
+
+.BGM01, .BGM09, .img08
+  margin-inline: -3.2rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.4rem !important
+
+.img01
+  top: -30%
+
+.img02
+  top: -18%
+
+.img03
+  top: -40%
+  @media (max-width: $bp-max-md)
+    top: -30%
+
+.img04
+  top: -55px
+
+.img05
+  top: -22px
+
+.img06
+  top: -43px
+
+.img07
+  max-width: 200%
+  width: 150%
+  left: -15px
+
+.img09
+  top: -50px
+
+.img01, .img02, .img03, .img04, .img05, .img06, .img07, .img09
+  position: relative
+
+.w-92
+  width: 92%
+
+.slyder-a__btn--sigt
+  background-image: url("../assets/componentes/arrow-white.svg")
+  transform: rotate( 0deg ) !important
+
+.slyder-a__btn--atrs
+  background-image: url("../assets/componentes/arrow-white.svg")
+  transform: rotate( 180deg ) !important
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: $bp-max-xs)
+    width: 40px
+    height: 40px
+  
+.slyder-a__bullets__item
+  background-color: #BAEBD7
+  @media (max-width: $bp-max-xs)
+    margin: 0 7px
+
+.modal-a__content
+  background-color: #F6F6F6
+
+.tarjeta.color-acento-contenido--borde
+  background-color: #E9FCF4
+
+
