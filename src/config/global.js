@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Construcción del plan de pruebas con OWASP orientado a aplicaciones <em>web</em>',
+      'Construcción del plan de pruebas con OWASP orientado a aplicaciones web',
     descripcionCurso:
-      'Para la construcción de un sistema de información por procesamiento electrónico de datos orientado a la <em>web</em> es muy importante implementar los mecanismos que brindan la seguridad de la aplicación, el presente componente tiene como objetivo elaborar un plan de pruebas de seguridad utilizando como metodología la Guía de referencia de pruebas de OWASP que pretende satisfacer los requerimientos de seguridad que se presentan.',
+      'Para la construcción de un sistema de información por procesamiento electrónico de datos orientado a la web es muy importante implementar los mecanismos que brindan la seguridad de la aplicación, el presente componente tiene como objetivo elaborar un plan de pruebas de seguridad utilizando como metodología la Guía de referencia de pruebas de OWASP que pretende satisfacer los requerimientos de seguridad que se presentan.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -32,61 +32,52 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+
         numero: '1',
         titulo: 'Plan de actividades',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Objetivos',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Limitaciones y facilidades',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Fijar las metas y objetivos particulares',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Definir equipo de trabajo',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Definir responsabilidades en el equipo',
             hash: 't_1_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Crear una estrategia',
             hash: 't_1_6',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Establecer los plazos',
             hash: 't_1_7',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.8',
             titulo: 'Determinar los recursos necesarios',
             hash: 't_1_8',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.9',
             titulo: 'Medir los resultados',
             hash: 't_1_9',
@@ -96,25 +87,22 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+
         numero: '2',
         titulo: 'Artefactos de pruebas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Metodología',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Tipos de artefactos',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Diseño de artefactos',
             hash: 't_2_3',
@@ -123,25 +111,22 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+
         numero: '3',
         titulo: 'Entorno de pruebas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Herramientas para pruebas',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Herramientas de gestión',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.3',
             titulo: 'Herramientas de operación',
             hash: 't_3_3',
@@ -198,7 +183,7 @@ export default {
     {
       tema: '1. Plan de Objetivos',
       referencia:
-        'Caballero, Q., A. E. (2019). Webinar gratuito: guía de pruebas de OWASP. [Video]. YouTube.',
+        'Caballero, Q., A. E. (2019). Webinar gratuito: guía de pruebas de OWASP.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=kXfZqQY0rcg&ab_channel=AlonsoCaballero',
@@ -266,7 +251,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -277,23 +262,23 @@ export default {
           nombre: 'Carlos Hernán Muñoz',
           cargo: 'Experto Temático',
           centro:
-            'Regional Cauca, Centro de teleinformática y producción industrial',
+            'Centro de teleinformática y producción industrial - Regional Cauca',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
           cargo: 'Diseñadora Instruccional',
           centro:
-            'Regional Norte de Santander, Centro de la Industria, la Empresa y Los Servicios CIES',
+            'Centro de la Industria, la Empresa y Los Servicios CIES - Regional Norte de Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Asesora Metodológica',
-          centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de estilo',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -304,13 +289,13 @@ export default {
           nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'María Natalia Maldonado Delgado',
@@ -321,7 +306,7 @@ export default {
         {
           nombre: 'Zuleidy María Ruíz Torres',
           cargo: 'Revisión de guion audiovisual',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'María Carolina Tamayo López',
@@ -392,19 +377,19 @@ export default {
           nombre: 'Zuleidy María Ruiz Torres',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

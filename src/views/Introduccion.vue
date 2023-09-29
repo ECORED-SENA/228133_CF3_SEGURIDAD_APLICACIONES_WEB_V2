@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p Le damos la bienvenida al componente formativo denominado Construcción del plan de pruebas con #[strong OWASP orientado a aplicaciones #[i web]], el cual hace parte del programa de formación técnico en “#[strong Seguridad en aplicaciones #[i web]]”, para lo cual se invita a observar el siguiente video:
+    p Le damos la bienvenida al componente formativo denominado Construcción del plan de pruebas con #[strong OWASP orientado a aplicaciones web], el cual hace parte del programa de formación técnico en “#[strong Seguridad en aplicaciones web]”, para lo cual se invita a observar el siguiente video:
 
     figure(data-aos="zoom-in")
       .video

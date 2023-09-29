@@ -8,17 +8,17 @@
       h1 Plan de actividades
     
     .row.justify-content-center.align-items-end.mb-4
-      .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema1/img01.png")
-      .col-md-8
-        p Es un documento que recoge un conjunto de tareas necesarias para la consecución de una acción u objetivo concreto. Antes de llevar a cabo la tarea de planificar un proyecto, es conveniente hacer un plan de actividades, en el cual se contemplará lo necesario que lleve a organizar las pruebas de seguridad de una aplicación #[i web] con base en la guía OWASP (#[i Open Web Application Security Project]).
+      .col-lg-4.my-3(data-aos="fade-right")
+        img.img-t.img-a(src="@/assets/curso/tema1/img01.png")
+      .col-lg-8.my-3
+        p Es un documento que recoge un conjunto de tareas necesarias para la consecución de una acción u objetivo concreto. Antes de llevar a cabo la tarea de planificar un proyecto, es conveniente hacer un plan de actividades, en el cual se contemplará lo necesario que lleve a organizar las pruebas de seguridad de una aplicación web con base en la guía OWASP (#[i Open Web Application Security Project]).
         .row.mb-4
           .col-auto(data-aos="fade-left")
             a.anexo.mb-4.mb-lg-0(href="https://owasp.org/www-pdf-archive/Gu%C3%ADa_de_pruebas_de_OWASP_ver_3.0.pdf" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[strong Enlace #[i web]]. Clic para conocer la Guía OWASP
+                p #[strong Enlace web]. Clic para conocer la Guía OWASP
         p.mb-0 Se recomienda para la elaboración del plan de actividades, la creación de un diagrama de Gantt el cual se compone de dos grandes partes de la siguiente manera: 
     
     .BGR01.p-4.mb-4(data-aos="zoom-in")
@@ -100,7 +100,7 @@
             h5 Figura 2
             span Objetivos del plan de pruebas
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema1/img08.svg")
+            img(src="@/assets/curso/tema1/img08.svg", alt='La imagen presenta los objetivos del plan de pruebas, teniendo en cuenta a los usuarios de internet y los desarrolladores de software.')
 
     p.mb-5 Los objetivos se pueden plantear de la siguiente manera: <br><br>
 
@@ -110,7 +110,7 @@
           .col-10
             img.img01(src="@/assets/curso/tema1/img09.png")
         .row.justify-content-center.BGH01.img02.p-4(data-aos="fade-right")
-          p.mb-0 Análisis del componente de aplicaciones #[i web] que corresponden a herramientas de #[i software] que funcionan vía internet y se convierten en soluciones que están “expuestas” al público de manera masiva.
+          p.mb-0 Análisis del componente de aplicaciones web que corresponden a herramientas de #[i software] que funcionan vía internet y se convierten en soluciones que están “expuestas” al público de manera masiva.
       .col-md-5.mx-2
         .row.justify-content-center.BG08(data-aos="zoom-in")
           .col-10
@@ -122,13 +122,13 @@
       .col-auto.BG06.p-2
         .h3.mb-0 Estos objetivos están orientados a:
       
-    p Especialistas de seguridad que, en su gran mayoría, se encuentran en la capa de administración de la infraestructura que soporta el funcionamiento del componente #[i web] en un ecosistema tecnológico y también a desarrolladores de #[i software] que son las personas encargadas de escribir las sentencias de código fuente que conforman el componente.
+    p Especialistas de seguridad que, en su gran mayoría, se encuentran en la capa de administración de la infraestructura que soporta el funcionamiento del componente web en un ecosistema tecnológico y también a desarrolladores de #[i software] que son las personas encargadas de escribir las sentencias de código fuente que conforman el componente.
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2	Limitaciones y facilidades
     
-    p.mb-5 Cuando se aborda la creación de un plan de actividades es muy importante recopilar la mayor cantidad posible de información de una organización. Esta debe estar orientada hacia la consecución de un contexto general de la situación actual de la empresa que va a utilizar o que está utilizando la aplicación #[i web] y que redunda en un análisis organizacional global que permita ubicar de una manera ágil los posibles recursos o la carencia de ellos.
+    p.mb-5 Cuando se aborda la creación de un plan de actividades es muy importante recopilar la mayor cantidad posible de información de una organización. Esta debe estar orientada hacia la consecución de un contexto general de la situación actual de la empresa que va a utilizar o que está utilizando la aplicación web y que redunda en un análisis organizacional global que permita ubicar de una manera ágil los posibles recursos o la carencia de ellos.
 
     .row.justify-content-center.mb-4
       .col-md-10
@@ -238,19 +238,19 @@
           .col-10
             img.img01(src="@/assets/curso/tema1/img14.png")
         .row.justify-content-center.BGJ07.img09.p-4
-          p.mb-0 Aplicar el estándar OWASP y el manual de pruebas de #[i pentesting] propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones #[i web].
+          p.mb-0 Aplicar el estándar OWASP y el manual de pruebas de #[i pentesting] propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones web.
       .col-md-4.BG13.mb-md-0.mb-5(data-aos="zoom-in")
         .row.justify-content-center.BG06
           .col-10
             img.img01(src="@/assets/curso/tema1/img15.png")
         .row.justify-content-center.BGJ01.img09.p-4
-          p.mb-0 Determinar las pruebas de la metodología OWASP de seguridad en aplicaciones #[i web] para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
+          p.mb-0 Determinar las pruebas de la metodología OWASP de seguridad en aplicaciones web para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
       .col-md-4.BG13(data-aos="fade-left")
         .row.justify-content-center.BG10
           .col-10
             img.img01(src="@/assets/curso/tema1/img16.png")
         .row.justify-content-center.BGJ07.img09.p-4
-          p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología OWASP de seguridad en aplicaciones #[i web].
+          p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología OWASP de seguridad en aplicaciones web.
 
     .row.justify-content-center.mb-4
       .col-10
@@ -268,7 +268,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2
         p Los mejores equipos de trabajo son los que se estructuran correctamente, saben comunicarse e interaccionan entre sí; la motivación, participación, organización, compromiso, confianza, objetivos comunes y resolución de problemas son las siete características del trabajo en equipo fundamentales. #[strong De ahí la importancia de tomarse el tiempo necesario para listar a las personas indicadas a quienes se les van a asignar las actividades en el plan de trabajo para interactuar con ellas].
-        p No obstante que este tipo de pruebas están orientadas a desarrolladores de #[i software], es importante tener en cuenta otros tipos de roles que pueden interactuar dentro de un equipo de trabajo como los administradores de red y plataformas, puesto que estos son los encargados de otorgar permisos en usuarios, definir tipologías de red, manejo de configuración de reglas de #[i firewalls], acceso a servidores de aplicaciones sistemas de autenticación entre otros, sobre todo para la parte en la cual consiste en contrastar los resultados obtenidos de las pruebas contra lo que realmente existe en el ecosistema tecnológico analizado en el que funciona una aplicación #[i web].
+        p No obstante que este tipo de pruebas están orientadas a desarrolladores de #[i software], es importante tener en cuenta otros tipos de roles que pueden interactuar dentro de un equipo de trabajo como los administradores de red y plataformas, puesto que estos son los encargados de otorgar permisos en usuarios, definir tipologías de red, manejo de configuración de reglas de #[i firewalls], acceso a servidores de aplicaciones sistemas de autenticación entre otros, sobre todo para la parte en la cual consiste en contrastar los resultados obtenidos de las pruebas contra lo que realmente existe en el ecosistema tecnológico analizado en el que funciona una aplicación web.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img18.png")
     
@@ -284,14 +284,17 @@
           p Los roles y responsabilidades #[strong se definen a nivel de la organización y del proyecto y el trabajo será conocer estos dos ítems del equipo en diferentes momentos de desarrollo de las actividades]. Para ello, contar con una estructura de equipo sólida en el nivel organizacional es fundamental y es lo primero que se debe apropiar para apoyar en la resolución de posibles brechas en esta área.
           p.mb-0 El principal rol que es el del desarrollador, debe contar como mínimo con los siguientes conocimientos: 
     
+    .titulo-sexto.color-acento-contenido.my-4
+      h5 Figura 3
+      span Conocimientos del desarrollador gráfico     
     .figure.mb-4(data-aos="fade-right")
-      img(src="@/assets/curso/tema1/img20.svg")
+      img(src="@/assets/curso/tema1/img20.svg", alt='Mapa conceptual que presenta los diferentes conocimientos que debe tener un desarrollador gráfico.')
 
     separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6	Crear una estrategia
     
-    p El procedimiento mediante el cual se determina para este caso es el análisis de vulnerabilidades de una aplicación #[i web], y este corresponde a la verificación punto por punto de los 10 casos de ataques más comunes reportados por los informes que cada cierto tiempo destaca OWASP en dichos ambientes #[i web], los cuales son:
+    p El procedimiento mediante el cual se determina para este caso es el análisis de vulnerabilidades de una aplicación web, y este corresponde a la verificación punto por punto de los 10 casos de ataques más comunes reportados por los informes que cada cierto tiempo destaca OWASP en dichos ambientes web, los cuales son:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="BGR05")
       .row.justify-content-center(titulo="Inyección (<em>Injection</em>)")
@@ -307,7 +310,7 @@
           img(src="@/assets/curso/tema1/img22.png")
       .row.justify-content-center(titulo="Secuencia de comandos en sitios cruzados (XSS)")
         .col-md-8.order-md-1.order-2
-          p Este tipo de ataque ocurre cuando se obtienen datos no confiables y se envían directamente al navegador #[i web]. Esto provoca que se puedan ejecutar comandos no deseados en el navegador del usuario. 
+          p Este tipo de ataque ocurre cuando se obtienen datos no confiables y se envían directamente al navegador web. Esto provoca que se puedan ejecutar comandos no deseados en el navegador del usuario. 
           p.mb-0 Estos comandos pueden obtener desde las credenciales de acceso del usuario como instalar ciertos programas maliciosos.
         .col-md-3.col-10.order-md-2.order-1.mb-md-0.mb-4
           img(src="@/assets/curso/tema1/img23.png")
@@ -337,7 +340,7 @@
           img(src="@/assets/curso/tema1/img27.png")
       .row.justify-content-center(titulo="Falsificación de peticiones en sitios cruzados")
         .col-md-8.order-md-1.order-2
-          p.mb-0 Este tipo de ataque ocurre cuando se realizan peticiones HTTP falsificadas del ordenador de la víctima a una aplicación #[i web] vulnerable.
+          p.mb-0 Este tipo de ataque ocurre cuando se realizan peticiones HTTP falsificadas del ordenador de la víctima a una aplicación web vulnerable.
         .col-md-3.col-10.order-md-2.order-1.mb-md-0.mb-4
           img(src="@/assets/curso/tema1/img28.png")
       .row.justify-content-center(titulo="Utilización de componentes con vulnerabilidades conocidas")
@@ -370,9 +373,11 @@
 
     p Centrado en la estrategia definida en el punto anterior para lograr la determinación de los recursos necesarios, se deben observar las condiciones dentro y fuera de la organización, a saber:  
 
-    figure.mb-4(data-aos="zoom-in")
-      img(src="@/assets/curso/tema1/img31.svg")
+    figure.d-none.d-lg-block.mb-4(data-aos="zoom-in")
+      img.img-a.img-t(src="@/assets/curso/tema1/img31.svg", alt='Se presentan las condiciones que se deben tener en cuenta dentro y fuera de la organización.')
     
+    figure.d-block.d-lg-none.mb-4(data-aos="zoom-in")
+      img.img-a.img-t(src="@/assets/curso/tema1/31.svg", alt='Se presentan las condiciones que se deben tener en cuenta dentro y fuera de la organización.')    
   
     .BGM01.p-4.p-md-5.mb-4
       .row.justify-content-center.align-items-center
@@ -384,63 +389,68 @@
 
     .row.justify-content-center.mb-4
       .col-md-10(data-aos="zoom-in")
-        img(src="@/assets/curso/tema1/img33.svg")
+        .titulo-sexto.color-acento-contenido.my-4
+          h5 Figura 4
+          span Determinación de los recursos necesarios       
+        img(src="@/assets/curso/tema1/img33.svg", alt='Imagen que presenta el proceso de determinación de los recursos necesarios.')
     
     separador
     #t_1_9.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.9	Medir los resultados
 
     p.mb-5 Con el ánimo de evaluar el éxito o fracaso del proyecto se proponen, como mínimo, medir los siguientes indicadores:
-    
+
     .row.justify-content-center
       .col-md-11
-        SlyderF.mb-5.pt-5(columnas="col-lg-4 col-md-6")
-          .BG02.pt-5.mx-2
-            .row.justify-content-center.BG04
-              .col-6.mb-4
-                img.img03(src="@/assets/curso/tema1/img34.png")
-            .row.justify-content-center.img04
-              .col-auto.BGR02
-                .h4.mx-4.mb-0 Alcance
-            .row.justify-content-center.BGK09.img05.p-4
-              p.mb-0 Son los resultados que se esperan del proyecto y el conjunto de labores que se deben realizar para llegar a esos resultados planteados.
-          .BG02.pt-5.mx-2
-            .row.justify-content-center.BG06
-              .col-6.mb-4
-                img.img03(src="@/assets/curso/tema1/img35.png")
-            .row.justify-content-center.img04
-              .col-auto.BGR02
-                .h4.mx-4.mb-0 Calendario
-            .row.justify-content-center.BGK11.img05.p-4
-              p.mb-0 Corresponde a la línea de tiempo del proyecto. Abarca no solo la fecha de cierre final, sino también los hitos importantes y los plazos de las tareas a lo largo del proceso.
-          .BG02.pt-5.mx-2
-            .row.justify-content-center.BG04
-              .col-6.mb-4
-                img.img03(src="@/assets/curso/tema1/img36.png")
-            .row.justify-content-center.img04
-              .col-auto.BGR02
-                .h4.mx-4.mb-0 Presupuesto
-            .row.justify-content-center.BGK09.img05.p-4
-              p.mb-0 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?.
-          .BG02.pt-4.mx-2
-            .row.justify-content-center.BG06.mt-4
-              .col-6.mb-4
-                img.img03(src="@/assets/curso/tema1/img37.png")
-            .row.justify-content-center.img04
-              .col-11.BGR02
-                .h4.mb-0.text-center Logro de los objetivos de negocio
-            .row.justify-content-center.BGK11.img06.p-4
-              p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?.
-          .BG02.pt-4.mx-2
-            .row.justify-content-center.BG04.mt-4
-              .col-6.mb-4
-                img.img03(src="@/assets/curso/tema1/img38.png")
-            .row.justify-content-center.img04
-              .col-auto.BGR02
-                .h4.mx-lg-4.mb-0.text-center La satisfacción del cliente 
-            .row.justify-content-center.BGK09.img05.p-4
-              p.mb-0 Se refiere al grado en que los resultados del proyecto cumplen o superan las expectativas; esto abarca la calidad de las entregas, la experiencia general del cliente, el servicio al cliente y la comunicación entre las partes interesadas internas y externas a lo largo del ciclo de vida del proyecto.
-          
+        SlyderF.mb-5(columnas="col-lg-4 col-md-12")
+          .bg1.h-100
+            .p-2
+              img.img-a.img-t(src="@/assets/curso/tema1/img34.png")
+              .row.justify-content-center.mb-3.px-3.text-center
+                .col-auto.BGR02
+                  .h4.mx-4.mb-0 Alcance 
+            .bg2.h-100
+              .p-4                
+                p.mb-0 Son los resultados que se esperan del proyecto y el conjunto de labores que se deben realizar para llegar a esos resultados planteados.    
+
+          .bg3.h-100
+            .p-2
+              img.img-a.img-t(src="@/assets/curso/tema1/img35.png")
+              .row.justify-content-center.mb-3.px-3.text-center
+                .col-auto.BGR02
+                  .h4.mx-4.mb-0 Calendario 
+            .bg4.h-100
+              .p-4                
+                p.mb-0 Corresponde a la línea de tiempo del proyecto. Abarca no solo la fecha de cierre final, sino también los hitos importantes y los plazos de las tareas a lo largo del proceso.    
+
+          .bg1.h-100
+            .p-2
+              img.img-a.img-t(src="@/assets/curso/tema1/img36.png")
+              .row.justify-content-center.mb-3.px-3.text-center
+                .col-auto.BGR02
+                  .h4.mx-4.mb-0 Presupuesto 
+            .bg2.h-100
+              .p-4                
+                p.mb-0 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?.   
+
+          .bg3.h-100
+            .p-2
+              img.img-a.img-t(src="@/assets/curso/tema1/img37.png")
+              .row.justify-content-center.mb-3.px-3.text-center
+                .col-auto.BGR02
+                  .h4.mx-4.mb-0 Logro de los objetivos de negocio 
+            .bg4.h-100
+              .p-4                
+                p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?.   
+          .bg1.h-100
+            .p-2
+              img.img-a.img-t(src="@/assets/curso/tema1/img38.png")
+              .row.justify-content-center.mb-3.px-3.text-center
+                .col-auto.BGR02
+                  .h4.mx-4.mb-0 La satisfacción del cliente 
+            .bg2.h-100
+              .p-4                
+                p.mb-0 Se refiere al grado en que los resultados del proyecto cumplen o superan las expectativas; esto abarca la calidad de las entregas, la experiencia general del cliente, el servicio al cliente y la comunicación entre las partes interesadas internas y externas a lo largo del ciclo de vida del proyecto.
 </template>
 
 <script>
