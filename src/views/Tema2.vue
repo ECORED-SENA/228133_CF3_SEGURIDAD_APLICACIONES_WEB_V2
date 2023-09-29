@@ -23,8 +23,9 @@
     
     .h4.text-center PROCESO
     .BGM09.p-4.p-md-5.mb-4(data-aos="zoom-in")
-      img(src="@/assets/curso/tema2/img02.svg", alt='Imagen que presenta los pasos del proceso del ciclo de vida del desarrollo de software.')
-
+      img.d-none.d-lg-block(src="@/assets/curso/tema2/img02.svg", alt='Imagen que presenta los pasos del proceso del ciclo de vida del desarrollo de software.')
+      figure.d-block.d-lg-none.mb-4(data-aos="zoom-in")
+        img.img-a.img-t(src="@/assets/curso/tema2/1.svg", alt='Imagen que presenta los pasos del proceso del ciclo de vida del desarrollo de software.')   
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2	Tipos de artefactos

@@ -14,7 +14,7 @@
     figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/4rJLBi5gfiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video.
+      figcaption Video. Construcción del plan de pruebas con OWASP orientado a aplicaciones web
 
 </template>
 
