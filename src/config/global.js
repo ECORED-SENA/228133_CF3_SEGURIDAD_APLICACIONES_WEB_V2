@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Construcción del plan de pruebas con OWASP orientado a aplicaciones web',
+      'Construcción del plan de pruebas con OWASP orientado a aplicaciones Web',
     descripcionCurso:
       'Para la construcción de un sistema de información por procesamiento electrónico de datos orientado a la web es muy importante implementar los mecanismos que brindan la seguridad de la aplicación, el presente componente tiene como objetivo elaborar un plan de pruebas de seguridad utilizando como metodología la Guía de referencia de pruebas de OWASP que pretende satisfacer los requerimientos de seguridad que se presentan.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
