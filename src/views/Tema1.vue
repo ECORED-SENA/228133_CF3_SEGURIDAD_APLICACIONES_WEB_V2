@@ -366,7 +366,7 @@
     figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Wp0kVmnPBpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+    figcaption Video. Establecer los plazos para cada actividad
     separador
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.8	Determinar los recursos necesarios

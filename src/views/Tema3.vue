@@ -237,13 +237,13 @@
     p.mb-4 El siguiente video presenta un tutorial del proceso de elaboración de un plan de pruebas con base en el contenido estándar OWASP.
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/5J2k8Sywo4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/am2gXuDBJOg?si=PKGjv-_H2SMsqvds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Plan de pruebas parte 1
 
     p.mb-4 Para dar continuidad al ejercicio que se viene desarrollando, lo invitamos a ver el siguiente video. 
     figure(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/fsSqOxsSk34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Oc23q_5bres?si=YTBM2WxFULOp5yaz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Plan de pruebas parte 2
 
 </template>

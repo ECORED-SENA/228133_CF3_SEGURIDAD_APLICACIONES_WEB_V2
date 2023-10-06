@@ -40,8 +40,8 @@
 
     figure(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/rKIuAU7c740" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/qpdYJZW6zxo?si=oZLHGOFA02vwZaAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figcaption Video. Tipos de artefactos 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3	Diseño de artefactos
