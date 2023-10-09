@@ -233,7 +233,7 @@
         .col-md-1.col-4.mb-md-0.mb-4(data-aos="fade-right")
           img.img07(src="@/assets/curso/tema3/img23.png")
         .col-md-11
-          p.mb-0 Hemos llegado a la finalización de este componente, pero antes es importante que observar las videoclases que se presentarán a continuación y que servirán como apoyo al ejercicio práctico que debe realizar en la elaboración de un plan de pruebas.
+          p.mb-0 Hemos llegado a la finalización de este componente, pero antes es importante observar las videoclases que se presentarán a continuación y que servirán como apoyo al ejercicio práctico que debe realizar en la elaboración de un plan de pruebas.
     p.mb-4 El siguiente video presenta un tutorial del proceso de elaboración de un plan de pruebas con base en el contenido estándar OWASP.
     figure.mb-5(data-aos="zoom-in")
       .video

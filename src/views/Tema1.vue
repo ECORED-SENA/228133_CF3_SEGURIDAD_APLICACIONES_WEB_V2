@@ -28,7 +28,7 @@
             .titulo-sexto.color-acento-contenido.my-4
               h5 Figura 1
               span Diagrama de Gantt generado con Open Project
-            img(src="@/assets/curso/tema1/img02.png")
+            img(src="@/assets/curso/tema1/img02.png", alt='Imagen que presenta un Diagrama de Gantt generado con Open Project.')
         .row.justify-content-center
           .col-md-5.col-6
             .BG02.p-4
@@ -77,7 +77,7 @@
         .col-lg-11
           p.mb-0 La importancia de un diagrama de Gantt radica en la posibilidad de contar constantemente con una visualización global del proyecto, incluso de planes complejos, mostrando el impacto que un cambio puede generar en una sola actividad en todo el proyecto permitiendo generar retroalimentación a los roles interesados.
 
-    p.mb-5 Para diseñar un diagrama de Gantt se recomienda la utilización de herramientas de #[i software] que permiten manejar de una manera ágil el seguimiento y verificación de su cumplimiento, incluso enmarcado dentro de un proyecto que puede considerarse más grande de marcando una hoja de ruta; algunas herramientas recomendadas son:  
+    p.mb-5 Para diseñar un diagrama de Gantt se recomienda la utilización de herramientas de #[i software] que permiten manejar de una manera ágil el seguimiento y verificación de su cumplimiento, incluso enmarcado dentro de un proyecto que puede considerarse más grande demarcando una hoja de ruta; algunas herramientas recomendadas son:  
 
     .row.justify-content-center.mb-4
       .col-md-8(data-aos="zoom-in")
@@ -268,7 +268,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2
         p Los mejores equipos de trabajo son los que se estructuran correctamente, saben comunicarse e interaccionan entre sí; la motivación, participación, organización, compromiso, confianza, objetivos comunes y resolución de problemas son las siete características del trabajo en equipo fundamentales. #[strong De ahí la importancia de tomarse el tiempo necesario para listar a las personas indicadas a quienes se les van a asignar las actividades en el plan de trabajo para interactuar con ellas].
-        p No obstante que este tipo de pruebas están orientadas a desarrolladores de #[i software], es importante tener en cuenta otros tipos de roles que pueden interactuar dentro de un equipo de trabajo como los administradores de red y plataformas, puesto que estos son los encargados de otorgar permisos en usuarios, definir tipologías de red, manejo de configuración de reglas de #[i firewalls], acceso a servidores de aplicaciones sistemas de autenticación entre otros, sobre todo para la parte en la cual consiste en contrastar los resultados obtenidos de las pruebas contra lo que realmente existe en el ecosistema tecnológico analizado en el que funciona una aplicación web.
+        p No obstante que este tipo de pruebas están orientadas a desarrolladores de #[i software], es importante tener en cuenta otros tipos de roles que pueden interactuar dentro de un equipo de trabajo como los administradores de red y plataformas, puesto que estos son los encargados de otorgar permisos en usuarios, definir tipologías de red, manejo de configuración de reglas de #[i firewalls], acceso a servidores de aplicaciones, sistemas de autenticación, entre otros, sobre todo para la parte en la cual consiste en contrastar los resultados obtenidos de las pruebas contra lo que realmente existe en el ecosistema tecnológico analizado en el que funciona una aplicación web.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img18.png")
     
@@ -371,7 +371,7 @@
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.8	Determinar los recursos necesarios
 
-    p Centrado en la estrategia definida en el punto anterior para lograr la determinación de los recursos necesarios, se deben observar las condiciones dentro y fuera de la organización, a saber:  
+    p.mb-5 Centrado en la estrategia definida en el punto anterior para lograr la determinación de los recursos necesarios, se deben observar las condiciones dentro y fuera de la organización, a saber:  
 
     figure.d-none.d-lg-block.mb-4(data-aos="zoom-in")
       img.img-a.img-t(src="@/assets/curso/tema1/img31.svg", alt='Se presentan las condiciones que se deben tener en cuenta dentro y fuera de la organización.')
@@ -431,7 +431,7 @@
                   .h4.mx-4.mb-0 Presupuesto 
             .bg2.h-100
               .p-4                
-                p.mb-0 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?.   
+                p.mb-0 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y, ¿cuáles son los fondos que se están invirtiendo en el plan?   
 
           .bg3.h-100
             .p-2
@@ -441,7 +441,7 @@
                   .h4.mx-4.mb-0 Logro de los objetivos de negocio 
             .bg4.h-100
               .p-4                
-                p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?.   
+                p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y, ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?  
           .bg1.h-100
             .p-2
               img.img-a.img-t(src="@/assets/curso/tema1/img38.png")

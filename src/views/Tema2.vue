@@ -18,7 +18,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1	Metodología
     
-    p.mb-5 La metodología a utilizar es OWASP la que comprende las siguientes fases enmarcadas dentro del ciclo de vida del desarrollo de #[i software] para lo que se recomienda reconocer las pruebas dentro del siguiente proceso, en especial los pasos 4 y 5.
+    p.mb-5 La metodología a utilizar es OWASP, la que comprende las siguientes fases enmarcadas dentro del ciclo de vida del desarrollo de #[i software] para lo que se recomienda reconocer las pruebas dentro del siguiente proceso, en especial los pasos 4 y 5.
 
     
     .h4.text-center PROCESO
